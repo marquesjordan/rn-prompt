@@ -63,7 +63,7 @@ export default class Prompt extends Component {
 
   componentWillReceiveProps(nextProps) {
     const { visible, defaultValue } = nextProps;
-    this.setState({ visible, value:defaultValue });
+    // this.setState({ visible, value:defaultValue });
   }
 
   _onChangeText = (value) => {
